@@ -1,6 +1,6 @@
 # Import python packages
 import streamlit as st
-streamlit.title('My Parents New Healthy Diner')
+st.title('My Parents New Healthy Diner')
 cnx = st.connection("snowflake")
 session = cnx.session()
 from snowflake.snowpark.functions import col
